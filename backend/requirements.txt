@@ -1,0 +1,47 @@
+# Core framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# Database (async MongoDB driver)
+motor==3.4.0
+pymongo==4.7.2
+beanie==1.26.0
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.9
+
+# AI / Computer Vision
+ultralytics==8.2.18
+opencv-python==4.9.0.80
+numpy==1.26.4
+
+# Data processing
+pandas==2.2.2
+
+# Pose estimation
+mediapipe==0.10.14
+
+# HTTP client (for potential webhook/email alerts)
+httpx==0.27.0
+
+# Configuration / environment
+python-dotenv==1.0.1
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# Websockets
+websockets==12.0
+
+# CORS
+aiofiles==23.2.1
+
+# Testing
+pytest==8.2.0
+pytest-asyncio==0.23.6
+httpx==0.27.0
+
+# Utilities
+Pillow==10.3.0
+python-dateutil==2.9.0

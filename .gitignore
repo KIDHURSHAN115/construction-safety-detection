@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+backend/venv/
+backend/.venv/
+
+# Environment variables
+.env
+backend/.env
+frontend/.env
+!backend/.env.example
+!frontend/.env.example
+
+# Model weights (too large for git)
+model_weights/*.pt
+model_weights/*.pth
+model_weights/*.onnx
+model_weights/*.engine
+!model_weights/README.md
+
+# Datasets (too large for git)
+datasets/images/
+datasets/labels/
+datasets/videos/
+!datasets/README.md
+
+# Evidence / video files
+evidence/*.jpg
+evidence/*.png
+evidence/*.mp4
+evidence/*.avi
+
+# Uploads
+backend/uploads/
+frontend/public/uploads/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# MongoDB
+data/db/
+
+# pytest / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
